@@ -1,0 +1,10 @@
+
+node {
+stage ('AApassJob') {
+build job: 'AApassJob'
+                      }
+
+stage ('EmailNoteJob') {
+build job: 'EmailNoteJob'
+                      }
+     }
